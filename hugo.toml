@@ -1,0 +1,34 @@
+baseURL = 'https://wiki.expidusos.com/'
+languageCode = 'en-us'
+title = 'ExpidusOS Wiki'
+copyright = '© Midstall Software & Contributors'
+disablePathToLower = true
+enableGitInfo = true
+
+[[module.imports]]
+path = 'github.com/alex-shpak/hugo-book'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+noClasses = false
+
+[menu]
+
+[[menu.after]]
+name = 'Website'
+url = 'https://expidusos.com'
+weight = 10
+
+[[menu.after]]
+name = 'GitHub'
+url = 'https://github.com/ExpidusOS'
+weight = 20
+
+[params]
+BookTheme = 'auto'
+BookSection = '*'
+BookRepo = 'https://github.com/ExpidusOS/wiki'
+BookEditPath = 'edit/master'
+BookLogo = 'logo.png'
