@@ -12,7 +12,7 @@ and basing the OS on [NixOS](https://nixos.org) instead of [Void Linux](https://
 ## Major Changes
 
 - Bases on NixOS instead of Void Linux
-- Replace XFCE fork with Genesis Shell powered by Gokai
+- Replace XFCE fork with Genesis Shell powered by Flutter
 - Split into different variants with the flagship being Mainline
 - Immutable root filesystem
 - User and system data split into a "data filesystem"
